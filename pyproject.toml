@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "ibmdataanalyst"
+version = "1"
+description = "This project is used for the IBM Data Analyst-Corse on Coursera and to get better with poetry and to learn vim"
+authors = ["MilanTheKopy <milan.kopynske@rwth-aachen.de>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+numpy = "^2.2.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.setuptools_scm]
+version_scheme = "guess-next-dev"
+local_scheme = "node-and-date"
